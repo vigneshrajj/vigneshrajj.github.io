@@ -67,8 +67,17 @@ footer{
 }
 .gallery-view{
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 16rem 16rem 16rem 16rem;
     grid-gap: 50px;
+}
+.gallery-item-1{
+    background-color: rgba(146,204,65,0.5);
+}
+.gallery-item-2{
+    background-color: rgba(32,156,238,0.5);
+}
+.gallery-item-3{
+    background-color: rgba(231,110,85,0.2);
 }
 img{
     width: 150px;

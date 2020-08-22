@@ -26,14 +26,14 @@
         <div class="nes-container is-dark with-title">
             <p class="title">Contact</p>
             <h3 class="heading">Contact me by sending a message</h3>
-            <form class="contact-form" action="contact.php">
+            <form id="contact-form" method="POST" action="https://formspree.io/mgenbnqj">
                 <label for="name">Full Name</label>
-                <input class="form-fields" type="text" name="name" placeholder="John Smith">
+                <input class="form-fields" type="text" name="name" placeholder="John Smith" required>
                 <label for="email">E-mail</label>
-                <input class="form-fields" type="text" name="email" placeholder="abcd@gmail.com">
+                <input class="form-fields" type="text" name="email" placeholder="abcd@gmail.com" required>
                 <label for="message">Message</label>
-                <input class="form-fields message-field" type="text" name="message">
-                <button class="nes-btn is-primary" type="submit">Submit</button>
+                <textarea name="message" class="form-fields" placeholder="Write your message..." rows="4" required></textarea>
+                <input class="nes-btn is-primary" type="submit"></button>
             </form>
           </div>
     </main>

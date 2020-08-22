@@ -2,7 +2,6 @@
 body {
     font-family: 'Press Start 2P', cursive;
     text-shadow: 0 0.05rem 0.1rem rgba(0,0,0,0.5);
-    
 }
 html,body{
     height: 100%;
@@ -214,9 +213,10 @@ ul li{
 }
 @media(max-width: 60rem){
     .form-fields{
-        width: auto;
+        width: 230px;
     }
     .contact-main{
         margin: 0;
+        padding: 0;
     }
 }

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./Assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <title>Resume</title>
+</head>
+
+<body class="container vertical">
+    <header>
+        <h3 class="nav-mashead-brand"><i class="snes-jp-logo"></i> Vignesh Raj</h3>
+        <nav class="nav nav-mashead">
+            <a class="nav-link" href="./index.html">Home</a>
+            <a class="nav-link" href="./portfolio.html">Portfolio</a>
+            <a class="nav-link" href="./cv.html">Resume</a>
+            <a class="active" href="./contact.html">Contact</a>
+        </nav>
+    </header>
+    <br>
+    <main role="main" class="portfolio-main contact-main">
+        <div class="nes-container is-dark with-title">
+            <p class="title">Contact</p>
+            <h3 class="heading">Contact me by sending a message</h3>
+            <form class="contact-form" action="contact.php">
+                <label for="name">Full Name</label>
+                <input class="form-fields" type="text" name="name" placeholder="John Smith">
+                <label for="email">E-mail</label>
+                <input class="form-fields" type="text" name="email" placeholder="abcd@gmail.com">
+                <label for="message">Message</label>
+                <input class="form-fields message-field" type="text" name="message">
+                <button class="nes-btn is-primary" type="submit">Submit</button>
+            </form>
+          </div>
+    </main>
+
+    <footer>
+        <p>Website made by Vignesh Raj</p>
+    </footer>
+</body>
+</html>
